@@ -1,0 +1,45 @@
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(185, 160, 105);
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title2{
+    color: rgb(11, 77, 77);
+}
+.cont{
+    width: 80%;
+    margin: auto;
+    border: 5px dotted black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cont > h1{
+    color: rgb(8, 56, 56);
+
+}
+.title1{
+    text-align:left;
+}
+.slika{
+margin-top: 3em;
+margin-left: 35em;
+}
+.slika > p{
+    margin-top: 0em;
+    margin-left: 2.7em;
+}
+.big_box{
+    width: 80%;
+    margin: auto;
+}
+.cont{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px;   
+}
