@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box{
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+
+}
+.levoG{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.desnoG{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.levoD{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+.desnoD{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.centar{
+    width: 100%;
+    text-align: center;
+    margin-top: 176px;
+   
+}

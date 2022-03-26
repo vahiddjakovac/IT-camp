@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+.levo{
+    display: inline-block;
+    float: left;
+    margin-top: 30px;
+}
+.desno{
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+.text span{
+    text-align: left;
+    margin-left: 20px;
+}
+.broj, .broj2, .broj3{
+    display: inline-block;
+    margin-left: 15px;
+}
+.prozorce{
+    width: 150px;
+    height: 170px;
+    border: solid 1px skyblue; 
+    border-radius: 5px;
+}
+.vreme{
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}

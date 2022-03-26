@@ -1,0 +1,12 @@
+.taroo{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid blue;
+
+}
+.taroo:hover{
+    background-color: blueviolet;
+    color: black;
+    display: none;
+}

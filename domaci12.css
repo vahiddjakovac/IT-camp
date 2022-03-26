@@ -1,0 +1,116 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+.container{
+    margin: auto;
+    width: auto;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    
+    
+}
+.kutija1{
+    width: 170px;
+    height: 250px;
+    background-color: rgb(189, 174, 174);
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 400px;
+    border: 1px solid rgb(128, 128, 250);
+
+}
+.kutija2{
+    width: 170px;
+    height: 250px;
+    background-color: rgb(153, 138, 138);
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    border: 1px solid rgb(128, 128, 250);
+
+}
+.kutija3{
+    width: 170px;
+    height: 250px;
+    background-color: rgb(145, 129, 129);
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    right: 400px;
+    border: 1px solid rgb(128, 128, 250);
+
+}
+.kutija4{
+    width: 170px;
+    height: 250px;
+    background-color: rgb(95, 89, 89);
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    right: 30px;
+    border: 1px solid rgb(128, 128, 250);
+
+}
+img{
+    width: 160px;
+    height: 90px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.text:hover{
+    background-color: turquoise;
+    color: rgb(136, 56, 56);
+    transform: rotateZ(360deg);
+    transition: 4s;
+    width: 190px;
+    border: 1px solid black;
+    zoom: 20px;
+    
+}
+i:hover{
+    
+    display: inline-block;
+    color: aqua;
+}
+.ikonice{
+    margin-top: 50px;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+    
+}
+i{
+    margin-left: 24px;
+    
+}
+.kutija4 i{
+    margin-left: 28px;
+
+}
+img:hover{
+    border: 1px solid black;
+
+}
+p:hover{
+    color: aqua;
+}
+.kutija1:hover{
+    border: 1px solid black;
+}
+.kutija2:hover{
+    border: 1px solid black;
+}
+.kutija3:hover{
+    border: 1px solid black;
+}
+.kutija4:hover{
+    border: 1px solid black;
+}

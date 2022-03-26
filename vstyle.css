@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    padding: 5%;
+    box-sizing: border-box;
+}
+.big_box{
+    background-color: rgb(192, 181, 181);
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
+    margin: 30px;
+    }
+.small_box{
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid rgb(90, 82, 82);
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: left;
+    color: rgb(58, 61, 61);
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.smaller_box{
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    text-align: justify;
+}
+ 
+
+.text{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+.levo{
+    color: rgb(74, 78, 78);
+text-align: left;
+}
+
+.podnaslov, .podnaslov1{
+    display: inline-block;
+    border-bottom: 2px solid grey;
+    padding: 20px 70px 20px 5px;
+    margin-left: -5px;
+    font-size: 20px;
+
+}
+.podnaslov1{
+    border-bottom: 2px solid rgb(76, 76, 224);
+}
+.tabela{
+    text-align: justify;
+}
+
+.poslednja{
+    padding-right: 110px;
+}
+h3{
+    font-size: 35px;
+}
+.prvi{
+    color: rgb(76, 76, 224);
+}
+.desno{
+text-align: right;}
+button{
+    display: inline-block;
+}

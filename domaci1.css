@@ -1,0 +1,176 @@
+body{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+
+}
+.conteiner{
+    background-color: #6366f1;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 64px;
+    padding: 0px 16px;
+    z-index: 1;
+    
+
+
+}
+h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.65rem;
+    text-align: center;
+}
+.big_box{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+.levogore{
+    background-color: white;
+    height: 224px;
+    width: 650px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-align: left; 
+}
+.levodole{
+    background-color: white;
+    height: 224px;
+width: 650px;
+display: inline-block;
+position: absolute;
+bottom: 150px;
+left: 15px;
+
+}
+.desnogore{
+    background-color: white;
+    height: 224px;
+width: 650px;
+display: inline-block;
+position: absolute;
+right: 15px;
+top: 15px;
+}
+.desnodole{
+    background-color: white;
+    height: 224px;
+width: 650px;
+display: inline-block;
+position: absolute;
+bottom: 150px;
+right: 15px;
+
+}
+.slika{
+    width: 12rem;
+    height: 12rem;
+    background-color: rgb(175, 175, 175);
+    float: left;
+    border-radius: 5px;
+}
+.krug1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #6366f1;
+    margin-left: 11px;
+    /* position: absolute; */
+    /* right: 250px; */
+    
+}
+.krug2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #f59e0b;
+    /* position: absolute; */
+    /* right: 260px; */
+}
+.krug3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ef4444;
+    /* position: absolute; */
+    /* right: 270px; */
+}
+.krug4{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #8b5cf6;
+    /* position: absolute; */
+    /* right: 280px; */
+}
+.krug5{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #ec4899;
+    /* position: absolute; */
+    /* right: 290px; */
+}
+.krug6{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    /* position: absolute; */
+    /* right: 300px; */
+}
+.krug7{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #10b981;
+    /* position: absolute; */
+    /* right: 310px; */
+}
+
+.boje{
+    position: absolute;
+    right: 230px;
+    width: 190px;
+    height: 32px;
+    background-color: white;
+    /* z-index: 500; */
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.krug{
+    display: inline-block;
+    margin-top: 5px;
+}
+.view{
+    width: 190px;
+    height: 32px;
+    border-radius: 15px;
+    border: whitesmoke solid 1px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    right: 430;
+    margin-top: 15px;
+    
+
+}
+.h2, .h3{
+    padding-left: 5px;
+}
+.text{
+    text-align: left;
+}

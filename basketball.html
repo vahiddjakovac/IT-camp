@@ -1,0 +1,338 @@
+<html>
+<head>
+    <link rel="stylesheet" href="match-bg.jpg.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="basketball.css">
+    <link rel="stylesheet" href="back.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+    <title>Basketball</title>
+    
+
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo">
+                    <img src="data:image/webp;base64,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" alt="" data-pagespeed-url-hash="3700655098" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                
+            </div>
+            <div class="header-right">
+                <div class="header-right-content">
+                    <ul class="menu menu_top">
+                        <li class="menu-item">
+                            <div class="text">
+                                <span> join our team </span><br>  
+                                <span>Ourteam@basketball.com</span>
+                            </div>
+                            <div class="icon">
+                                <img src="data:image/webp;base64,UklGRhYBAABXRUJQVlA4TAoBAAAvGUAHEL+goG0bxjtAxh/kSgNB27Zxxp/jmbwK2raRkvthHH+SMQhJSm/wCPnLpFAGF8EH1L1vnhdd6NBkR0r871qrNQGWkKoYLxNhCBGp9U8AMbZtpdV5SmAjL49I/7Xei3wpIKL/EyBJDeAptwE8dQj7Dh7sO5yROCld29175P62YMIdjWIK7VpiHqZpgHRNeQFYsk5NrJIUyudTgiStTE7oVHO20oOU3zMtXAmN+T0CNci+eu/9bRQqbpa7YB1lb45OTCkdxNn58nHswYevCQvRfHvvXmQJRh+KwTWFr5yR3UspTWZn9AKbp8OV4Am8YRgeBnTJ3jPWWut4z9n/qnfoF6F3aNzeAA==" alt="" data-pagespeed-url-hash="1640789326" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="text">
+                                <span>contact us</span><br>
+                                <span>Suport@basketball.com</span>
+                            </div>
+                            <div class="icon">
+                                <img src="data:image/webp;base64,UklGRtIAAABXRUJQVlA4TMYAAAAvHUAHELeAoG3beNuBnD/J0EDQtm2c8ed4Jq+Ctm0kb/fCOP4grwYBIDmDEPKXWaENmqDA/PfI5UODUiR0Gvb/r1hzIxZQmVLzqiYxoCJtDq5k200bQfgZwvvfax1Jpf+I/k/AirdueDu98V8M++MQc+LxjGF95JhISzeaJ5fCqR4+D/PJnuCPkQRzEs8C5+IhUbOQK/b79ubQ4mu3Ahnt0tAEexZty8sAHGoWsvIO3BS+VOSZwntgFYrmC7gpfkWe6R2rUCg=" alt="" data-pagespeed-url-hash="1935289247" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="text">
+                                <span>my cart</span><br>
+                                <span>( 2 items ) </span>
+                                <span class="first-color">$ 285.0</span>
+                            </div>
+                            <div class="icon">
+                                <img src="data:image/webp;base64,UklGRhYBAABXRUJQVlA4TAoBAAAvGUAHEL+goG0bxjtAxh/kSgNB27Zxxp/jmbwK2raRkvthHH+SMQhJSm/wCPnLpFAGF8EH1L1vnhdd6NBkR0r871qrNQGWkKoYLxNhCBGp9U8AMbZtpdV5SmAjL49I/7Xei3wpIKL/EyBJDeAptwE8dQj7Dh7sO5yROCld29175P62YMIdjWIK7VpiHqZpgHRNeQFYsk5NrJIUyudTgiStTE7oVHO20oOU3zMtXAmN+T0CNci+eu/9bRQqbpa7YB1lb45OTCkdxNn58nHswYevCQvRfHvvXmQJRh+KwTWFr5yR3UspTWZn9AKbp8OV4Am8YRgeBnTJ3jPWWut4z9n/qnfoF6F3aNzeAA==" alt="" data-pagespeed-url-hash="1640789326" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="menu menu_bottom">
+                        <li>
+                            <div class="text">
+                                <span class="first-color">Home</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>about</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>player</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>shop</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>pages</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>blog</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="text">
+                                <span>contact</span>
+                            </div>
+                        </li>
+                        <div class="search-option">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section class="hero-spad">
+        <!-- <img src=".//slider-1.jpg.webp" alt=""> -->
+        <div class="cover">
+            <div class="cover-content">
+                <p>Jun 30, 2020 / 8:00 pm / New York</p>
+                <h2>National leagues 2020 sesion begins</h2>
+                <div class="countdown">
+                   <div class="cd-item">
+                       <div class="broj">
+                           <h3>
+
+                               <span class="kockice">30</span>
+                           </h3>
+                        </div>
+                        <p>days</p>
+                   </div>
+                   <div class="cd-item">
+                    <div class="broj">
+                        <h3>
+
+                            <span class="kockice">2</span>
+                        </h3>
+                    </div>
+                    <p>hours</p>
+                </div>
+                <div class="cd-item">
+                    <div class="broj">
+                        <h3>
+
+                            <span class="kockice">30</span>
+                        </h3>
+                    </div>
+                    <p>minutes</p>
+                </div>
+                <div class="cd-item">
+                    <div class="broj broj-kraj" >
+                        <h3>
+                            <span class="kockice">30</span>
+
+                        </h3>
+                        
+                    </div>
+                    <p>seconds</p>
+                </div>
+                </div>
+                <div class="button">
+                    <button>start</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-slider">
+          
+
+
+        </div>
+    </section>
+    <section class="latest-results">
+        <div class="container2">
+            <div class="row">
+                <div class="left-part">
+                    <div class="section-title">
+                        <h2>
+                            <i class="fa-solid fa-bolt-lightning"></i> latest results
+                        </h2>
+                    </div>
+                    <div class="left_part_table">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td class="datum"> May 05, 2020 </td>
+                                <td></td>
+                                <td class="mesto"> Chicago </td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim">Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                            <tr>
+                                 <td class="datum">May 05, 2020</td>
+                                 <td></td>
+                                 <td class="mesto">Chicago </td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim">Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                            <tr>
+                                 <td class="datum">May 05, 2020</td>
+                                 <td></td>
+                                 <td class="mesto">Chicago</td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim">Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                            <tr>
+                                 <td class="datum">May 05, 2020</td>
+                                 <td></td>
+                                 <td class="mesto">Chicago</td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim">Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                            <tr>
+                                 <td class="datum">May 05, 2020</td>
+                                 <td></td>
+                                 <td class="mesto">Chicago</td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim"> Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                            <tr>
+                                 <td class="datum">May 05, 2020</td>
+                                 <td></td>
+                                 <td class="mesto">Chicago</td>
+                            </tr>
+                            <tr>
+                                <td class="tim prvi-tim">Costa Caribe</td>
+                                <td class="vreme">00:00</td>
+                                <td class="tim drugi-tim">Brooklyn Nets</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="right-part">
+                    <div class="section-title">
+                        <h2>
+                            <i class="fa-solid fa-bolt-lightning"></i>TODAY'S BASKETBALL MATCHES
+                        </h2>
+                    </div>
+                    
+                        <div class="right-part-match">
+                            <div class="fist-team">
+                                <div class="imgL">
+                                    <img src="C:\Users\Comp\Desktop\IT\xteam-1.png.pagespeed.ic.MnqMqwfhdO.webp" alt="">
+
+                                </div>
+                                <h4>Costa Caribe</h4>
+
+                            </div>
+                            <div class="second-team">
+                                <div class="imgR">
+                                    <img src="C:\Users\Comp\Desktop\IT\xteam-2.png.pagespeed.ic.VpNpa6siR0.webp" alt="">
+                                </div><br>
+                                <h4>Brooklyn Nets</h4>
+
+                            </div>
+                        </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="players">
+    <div class="players_cont">
+        <div class="row-title">
+            <div class="row_title">
+                <div class="team-first">
+                    <h2>
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                        first team                  
+                    </h2>
+                </div>
+            </div>
+            <div class="row_title_2">
+                <div class="team-button">
+                    <a href="#" class="primary-button"> join our team </a>
+                </div>
+            </div>
+        </div>
+        <div class="row-players">
+            <div class="firstP">
+                <div class="prvi-igrac">
+                    <div class="slika">
+                        <div class="broj-igraca">
+                            <span>01</span>
+                        </div>
+                    </div>
+                    <div class="opis-igraca">
+                        <h4> Grace Osborn</h4>
+                        <span> center </span>
+                    </div>
+                </div>
+            </div>
+            <div class="secondP">
+                <div class="drugi-igrac">
+                    <div class="slika">
+                        <div class="broj-igraca">
+                            <span>83</span>
+                        </div>
+                    </div>
+                    <div class="opis-igraca">
+                        <h4>Frances Matthews</h4>
+                        <span>point guard</span>
+                    </div>
+                </div>
+            </div>
+            <div class="thirdP">
+                <div class="treci-igrac">
+                    <div class="slika">
+                        <div class="broj-igraca">
+                            <span>36</span>
+                        </div>
+                    </div>
+                    <div class="opis-igraca">
+                        <h4>Florence Munoz</h4>
+                        <span>SHOOTING GUARD</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fourthP">
+                <div class="cetvrti-igrac">
+                    <div class="slika">
+                        <div class="broj-igraca">
+                            <span>50</span>
+                        </div>
+                    </div>
+                    <div class="opis-igraca">
+                        <h4>Victoria Lawrence</h4>
+                        <span>POWER FORWARD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
